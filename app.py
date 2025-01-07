@@ -13,14 +13,14 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 캡처 대상 URL
 capture_urls = {
-    "RUN_16:9_1P": "https://localhost:5001/ui/16x9_1P",
-    "RUN_16:9_2P": "https://localhost:5001/ui/16x9_2P",
-    "RUN_4:3_1P": "https://localhost:5001/ui/4x3_1P",
-    "RUN_16:9_2P_VS": "https://localhost:5001/ui/16x9_2P_VS"
+    "RUN_16:9_1P": "https://badagames.asuscomm.com:5173/ui/16x9_1P",
+    "RUN_16:9_2P_COOP": "https://badagames.asuscomm.com:5173/ui/16x9_2P",
+    "RUN_4:3_1P": "https://badagames.asuscomm.com:5173/ui/4x3_1P",
+    "RUN_16:9_2P_VS": "https://badagames.asuscomm.com:5173/ui/16x9_2P_VS"
 }
 
 # POST 요청 보낼 URL
-post_url = "https://localhost:5001/api/run/"
+post_url = "https://badagames.asuscomm.com:5173/api/run/"
 
 # CSV 파일 URL
 load_dotenv()

@@ -11,14 +11,13 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # 캡처 대상 URL
 capture_urls = [
-    "https://localhost:5001/ui/16x9_1P",
-    "https://localhost:5001/ui/16x9_2P",
-    "https://localhost:5001/ui/4x3_1P",
-    "https://localhost:5001/ui/16x9_2P_VS"
+    "https://localhost:5010/ui/16x9_1P",
+    "https://localhost:5010/ui/4x3_1P",
+    "https://localhost:5010/ui/4x1_1P"
 ]
 
 # POST 요청 보낼 URL
-post_url = "https://localhost:5001/api/run/"
+post_url = "https://localhost:5010/api/run/"
 
 desired_width = 1920
 desired_height = 1080 + 139  # 139: 브라우저 상단바 높이
